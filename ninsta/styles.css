@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+}
+.img{
+    align-items: center;
+}
+p2
+{
+    font-size: 10px;
+    align-items: top;
+    margin: 20px 0;
+
+}
+
+
+h1 {
+    font-family: 'pacifico', cursive;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.facebook-login {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.divider {
+    position: relative;
+    font-size: 14px;
+    color: #8e8e8e;
+    margin: 20px 0;
+}
+
+.divider::before, .divider::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.divider::before {
+    left: 0;
+}
+
+.divider::after {
+    right: 0;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    font-size: 14px;
+    border: 1px solid #dbdbdb;
+    background-color: #fafafa;
+    border-radius: 3px;
+}
+
+form .login-btn {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.forgot-password {
+
+    display: block;
+    margin-top: 10px;
+    color: #00376b;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.signup {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signup a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+footer .meta {
+    font-weight: bold;
+    color: #ff6f00;
+}
